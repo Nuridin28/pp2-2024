@@ -1,0 +1,6 @@
+import re
+with open('row.txt', 'r') as file:
+    data = file.read()
+
+x = re.findall('ab*', data)
+print(x)
