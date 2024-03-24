@@ -1,18 +1,6 @@
-class MyClass:
-    def __init__(self, name, salary):
-        self.name = name
-        self.salary = salary
+num = int(input())
 
-o1 = MyClass(1, 5000)
-o2 = MyClass(2, 5100)
+a = (i for i in range(0, num+1) if i%3 == 0)
 
-if(o1.salary > o2.salary):
-    print("Salary of 1 is bigger than 2")
-else:
-    print("Salary of 2 is bigger than 1")
-
-'''
-while()   
-else:
-
-'''
+for x in a:
+    print(x)
